@@ -1,6 +1,7 @@
 export function PostData(type, userData) {
   //let BaseURL = "http://localhost/Api/api/";
-  let BaseURL = "http://localhost/Api/api/index.php/";
+  //let BaseURL = "http://localhost/Api/api/index.php/";
+  let BaseURL = "http://diagnostic.nikhilracha.5gbfree.com/Api/api/index.php/";
   console.log("userData in postData", userData);
 
   return new Promise((resolve, reject) => {

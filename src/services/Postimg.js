@@ -1,6 +1,6 @@
 export function Postimg(userData, userid) {
-  let BaseURL = "http://localhost/Api/api/proces.php";
-
+  //let BaseURL = "http://localhost/Api/api/proces.php";
+  let BaseURL = "http://diagnostic.nikhilracha.5gbfree.com/Api/api/proces.php";
   //let BaseURL = "http://localhost/filepond-master/public/api/submit.php";
   console.log("userData in postData", userData[0]);
 
