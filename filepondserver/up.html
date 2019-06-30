@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>FilePond PHP Boilerplate Project</title>
+
+    <!-- Get FilePond and FilePond image preview plugin styles from a CDN -->
+    <link
+      href="https://unpkg.com/filepond/dist/filepond.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* FilePond will automatically fill up all available horizontal space, it's best to limit it in some way */
+      form {
+        max-width: 24em;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="submit.php" method="post" enctype="multipart/form-data">
+      <input type="file" name="filepond[]" multiple />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
